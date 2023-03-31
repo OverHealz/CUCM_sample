@@ -32,7 +32,7 @@ The password in the config file is in encrypted form.
 3. Create a user and add it to the above created access control group so that it can query AXL.
 4. Download the CiscoAXL Toolkit (axlsqltoolkit.zip) from Cisco Unified CM Administration 
    application (the complete schema definition for different versions of Cisco Unified CM)
-   and unpckt it to /resources folder of the project.
+   and unpack it to /resources folder of the project.
 5. Install the SOAP client:</br>
 >pip install zeep
 
