@@ -4,14 +4,14 @@ Works on Linux, Windows.
 
 ## Use
 To obtain a report run: 
-    <./get_report.py>
+    ./get_report.py
 
 ![](/screenshot/scrsht.png)
 
 The program reads the config file cucm_param.conf  and establish the connection with CUCM for report generating.
 If the config file is empty or does not exist, it must be created before run.
 To create the config file run:
-    <./set_config.py>
+    ./set_config.py
 
 and set parameters:
 - CUCM IP address
