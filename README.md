@@ -4,7 +4,7 @@ Works on Linux, Windows.
 
 ## Use
 To obtain a report run:</br>
-    ./get_report.py
+    <./get_report.py>
 
 ![](/screenshot/scrsht.png)
 
