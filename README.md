@@ -4,14 +4,14 @@ Works on Linux, Windows.
 
 ## Use
 To obtain a report run:</br>
-    <./get_report.py>
+>./get_report.py
 
 ![](/screenshot/scrsht.png)
 
 The program reads the config file cucm_param.conf  and establish the connection with CUCM for report generating.
 If the config file is empty or does not exist, it must be created before run.
 To create the config file run:</br>
-    ./set_config.py
+>./set_config.py
 
 and set parameters:
 - CUCM IP address
@@ -34,7 +34,7 @@ The password in the config file is in encrypted form.
    application (the complete schema definition for different versions of Cisco Unified CM)
    and unpckt it to /resources folder of the project.
 5. Install the SOAP client:</br>
-    pip install zeep
+>pip install zeep
 
 ### License
 
