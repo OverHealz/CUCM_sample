@@ -1,16 +1,16 @@
 # CUCM_sample
-The program forms a sample from Cisco Call Manager using AXL. The result is saved in XLSX format.
+The program forms a sample from Cisco Call Manager using AXL. The result is saved in XLSX format.</br>
 Works on Linux, Windows.
 
 ## Use
-To obtain a report run: 
+To obtain a report run:</br>
     ./get_report.py
 
 ![](/screenshot/scrsht.png)
 
 The program reads the config file cucm_param.conf  and establish the connection with CUCM for report generating.
 If the config file is empty or does not exist, it must be created before run.
-To create the config file run:
+To create the config file run:</br>
     ./set_config.py
 
 and set parameters:
@@ -33,8 +33,8 @@ The password in the config file is in encrypted form.
 4. Download the CiscoAXL Toolkit (axlsqltoolkit.zip) from Cisco Unified CM Administration 
    application (the complete schema definition for different versions of Cisco Unified CM)
    and unpckt it to /resources folder of the project.
-5. Install the SOAP client:
-    <pip install zeep>
+5. Install the SOAP client:</br>
+    pip install zeep
 
 ### License
 
