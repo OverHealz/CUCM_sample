@@ -15,7 +15,7 @@ Two working options are presented for unloading information from CUCM:
    As a result, an XLSX table is formed:</br>
 ![](/screenshot/report_s.png)
 
-2. Using the listPhone() function from the zeep.
+2. Using the listPhone() function from the zeep.</br>
    To obtain a report run (for v.12.5):</br>
 ```
 ./get_report.py
