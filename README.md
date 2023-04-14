@@ -1,15 +1,30 @@
 # CUCM_sample
 The program forms a sample from Cisco Call Manager using AXL. The result is saved in XLSX format.</br>
-Works on Linux, Windows.
+Works on Linux, Windows.</br>
+Tested on CUCM v.12.5, v.14
 
 ## Use
-To obtain a report run:</br>
+Two working options are presented for unloading information from CUCM:
+1. By executing an SQL query against the Informix CUCM database.
+   To obtain a report run (for v.14):</br>
+```
+./get_report_by_sql.py
+```
+![](/screenshot/scrsht_v14.png)
+
+   As a result, an XLSX table is formed:</br>
+![](/screenshot/report_s.png)
+
+2. Using the listPhone() function from the zeep.
+   To obtain a report run (for v.12.5):</br>
 ```
 ./get_report.py
 ```
-
 ![](/screenshot/scrsht.png)
 
+   An XLSX table is also formed here, the set of columns will be different.</br>
+
+Before starting, you need to set the parameters.</br>
 The program reads the config file cucm_param.conf  and establish the connection with CUCM for report generating.
 If the config file is empty or does not exist, it must be created before run.
 To create the config file run:</br>
