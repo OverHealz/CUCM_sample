@@ -5,7 +5,7 @@ Tested on CUCM v.12.5, v.14
 
 ## Use
 Two working options are presented for unloading information from CUCM:
-1. By executing an SQL query against the Informix CUCM database.
+1. By executing an SQL query against the Informix CUCM database.</br>
    To obtain a report run (for v.14):</br>
 ```
 ./get_report_by_sql.py
